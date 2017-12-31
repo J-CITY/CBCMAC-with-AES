@@ -1,0 +1,129 @@
+# depslib dependency file v1.0
+1512481096 source:c:\users\333da\desktop\cbc-mac\main.cpp
+	<iostream>
+	"AES.h"
+	"CBC-MAC.h"
+
+1505899258 c:\program files (x86)\codeblocks\mingw\include\ckcrypt2.h
+	"chilkatDefs.h"
+	"CkString.h"
+	"CkClassWithCallbacks.h"
+
+1491708186 c:\program files (x86)\codeblocks\mingw\include\chilkatdefs.h
+	"ck_inttypes.h"
+	"SystemTime.h"
+	"FileTime.h"
+
+1491708186 c:\program files (x86)\codeblocks\mingw\include\ck_inttypes.h
+	<inttypes.h>
+	<stdint.h>
+	<cstdint>
+	<inttypes.h>
+
+1341006772 c:\program files (x86)\codeblocks\mingw\include\inttypes.h
+	<_mingw.h>
+	<stdint.h>
+	<stddef.h>
+
+1341006770 c:\program files (x86)\codeblocks\mingw\include\_mingw.h
+
+1341006776 c:\program files (x86)\codeblocks\mingw\include\stdint.h
+	<stddef.h>
+
+1491708186 c:\program files (x86)\codeblocks\mingw\include\systemtime.h
+
+1491708186 c:\program files (x86)\codeblocks\mingw\include\filetime.h
+
+1491708184 c:\program files (x86)\codeblocks\mingw\include\ckstring.h
+	"chilkatDefs.h"
+	"CkObject.h"
+
+1491708184 c:\program files (x86)\codeblocks\mingw\include\ckobject.h
+	"chilkatDefs.h"
+
+1491708180 c:\program files (x86)\codeblocks\mingw\include\ckclasswithcallbacks.h
+	"CkMultiByteBase.h"
+
+1491708182 c:\program files (x86)\codeblocks\mingw\include\ckmultibytebase.h
+	"CkObject.h"
+
+1505899258 c:\users\333da\desktop\cbc-mac\include\ckcrypt2.h
+	"chilkatDefs.h"
+	"CkString.h"
+	"CkClassWithCallbacks.h"
+
+1491708186 c:\users\333da\desktop\cbc-mac\include\chilkatdefs.h
+	"ck_inttypes.h"
+	"SystemTime.h"
+	"FileTime.h"
+
+1491708186 c:\users\333da\desktop\cbc-mac\include\ck_inttypes.h
+	<inttypes.h>
+	<stdint.h>
+	<cstdint>
+	<inttypes.h>
+
+1491708186 c:\users\333da\desktop\cbc-mac\include\systemtime.h
+
+1491708186 c:\users\333da\desktop\cbc-mac\include\filetime.h
+
+1491708184 c:\users\333da\desktop\cbc-mac\include\ckstring.h
+	"chilkatDefs.h"
+	"CkObject.h"
+
+1491708184 c:\users\333da\desktop\cbc-mac\include\ckobject.h
+	"chilkatDefs.h"
+
+1491708180 c:\users\333da\desktop\cbc-mac\include\ckclasswithcallbacks.h
+	"CkMultiByteBase.h"
+
+1491708182 c:\users\333da\desktop\cbc-mac\include\ckmultibytebase.h
+	"CkObject.h"
+
+1502825214 source:c:\users\333da\desktop\cbc-mac\aes256.cpp
+	"aes256.hpp"
+	<iostream>
+	<stdlib.h>
+
+1502825214 c:\users\333da\desktop\cbc-mac\aes256.hpp
+	<vector>
+
+1512481070 c:\users\333da\desktop\cbc-mac\aes.h
+	<string>
+	<vector>
+	<fstream>
+	<streambuf>
+	<iostream>
+	<map>
+
+1512481109 c:\users\333da\desktop\cbc-mac\cbc-mac.h
+	"AES.h"
+
+1514622251 source:c:\users\333da\desktop\cripto\cbc-mac\main.cpp
+	<iostream>
+	"AES.h"
+	"CBC-MAC.h"
+	"FileStream.h"
+
+1514611469 c:\users\333da\desktop\cripto\cbc-mac\aes.h
+	<string>
+	<vector>
+	<fstream>
+	<streambuf>
+	<iostream>
+	<map>
+	<cstdlib>
+
+1514623611 c:\users\333da\desktop\cripto\cbc-mac\cbc-mac.h
+	"AES.h"
+
+1514623742 c:\users\333da\desktop\cripto\cbc-mac\filestream.h
+	<iostream>
+	<vector>
+	<string>
+	<windows.h>
+	<dirent.h>
+	<sstream>
+	"AES.h"
+	"CBC-MAC.h"
+
