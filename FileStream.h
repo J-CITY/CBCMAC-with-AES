@@ -31,6 +31,8 @@ class FileStream {
         std::cout << "]";
     }
 public:
+    int bufferInByte = 1000000;
+
     FileStream(const int keySize = AES::KEY_SIZE_256) {
         aes = new AES(keySize);
         tag = new CBCMAC(keySize);
@@ -54,7 +56,7 @@ public:
         }
 
         std::ifstream fin(fileName, std::ifstream::binary);
-        std::vector<char> buffer(1000000,0);
+        std::vector<char> buffer(bufferInByte, 0);
 
         std::streamsize s;
         while(fin.read(buffer.data(), buffer.size())) {
@@ -114,8 +116,7 @@ public:
         struct dirent *ep;
         dp = opendir (fileName.c_str());
 
-        if (dp != NULL)
-        {
+        if (dp != NULL) {
             while (ep = readdir(dp))
                 file_count++;
 
@@ -125,9 +126,9 @@ public:
 
         std::string tagStr = "";
         tag->SetKey(KEY_1, KEY_2);
-        std::ofstream fout(unpack, std::ifstream::binary);
         double step = 10.0/file_count;
         double load = 0;
+        std::ofstream fout(unpack, std::ifstream::binary);//+std::to_string(i)
         for (int i = 0; i < file_count; ++i) {
             std::string name = fileName + "/" + std::to_string(i)+".pk";
             std::string content = readFile(name);
@@ -146,8 +147,8 @@ public:
             load+=step;
             printBar(load);
         }
-        printBar(10);
         fout.close();
+        printBar(10);
     }
 
 };

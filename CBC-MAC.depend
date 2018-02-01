@@ -127,3 +127,36 @@
 	"AES.h"
 	"CBC-MAC.h"
 
+1517480279 source:c:\users\333da\desktop\cbc\cbcmac-with-aes\main.cpp
+	<iostream>
+	"AES.h"
+	"CBC-MAC.h"
+	"FileStream.h"
+	"bass.h"
+
+1517475777 c:\users\333da\desktop\cbc\cbcmac-with-aes\aes.h
+	<string>
+	<vector>
+	<fstream>
+	<streambuf>
+	<iostream>
+	<map>
+	<cstdlib>
+
+1517475777 c:\users\333da\desktop\cbc\cbcmac-with-aes\cbc-mac.h
+	"AES.h"
+
+1517483223 c:\users\333da\desktop\cbc\cbcmac-with-aes\filestream.h
+	<iostream>
+	<vector>
+	<string>
+	<windows.h>
+	<dirent.h>
+	<sstream>
+	"AES.h"
+	"CBC-MAC.h"
+
+1419223422 c:\users\333da\desktop\cbc\cbcmac-with-aes\bass.h
+	<wtypes.h>
+	<stdint.h>
+
